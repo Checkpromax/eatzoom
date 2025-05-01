@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EatZoom </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Header -->
+<header class="bg-header">
+  <nav class="navbar navbar-expand-md">
+    <div class="container">
+      <a class="navbar-brand text-white fw-bold" href="#" data-bs-toggle="tooltip" data-bs-title="EatZoom">EatZoom</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item px-2"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item px-2"><a class="nav-link" href="#how">How it works</a></li>
+          <li class="nav-item px-2"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item px-3"><a class="nav-link cta" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+  <section class="hero-section py-5">
+    <div class="container py-3">
+      <div class="row g-5 align-items-center">
+        <div class="col-12 col-lg-6">
+          <h1 class="text-white fw-bold">Taste the World: Get a surprise box of tasty snacks from everywhere!</h1>
+          <p class="text-white pt-4">Yum! Try all kinds of tasty foods with EatZoom. From snacks to desserts, get what you love to eat!</p>
+          <button class="btn mt-4">Order Now</button>
+        </div>
+        <div class="col-12 col-lg-6 text-center">
+          <img src="assets/hero.png" class="img-fluid hero-img" alt="Delicious Food" loading="lazy"/>
+        </div>
+      </div>
+    </div>
+  </section>
+</header>
+
+<!-- Main -->
+<main>
+
+  <!-- Featured Section -->
+  <section class="featured py-5" id="features">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-5">Featured Food Items</h2>
+      <div class="row g-5">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card shadow-sm border-0 rounded">
+            <img src="assets/burger.jpg" class="img-fluid card-img-top" alt="Burger" loading="lazy"/>
+            <div class="card-body">
+              <h3 class="card-title">Burger</h3>
+              <p class="card-text">A juicy veggie patty topped with melted cheese and your favorite fixings, all nestled in a soft bun.</p>
+              <button class="btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card shadow-sm border-0 rounded">
+            <img src="assets/pizza.png" class="img-fluid card-img-top" alt="Pizza" loading="lazy"/>
+            <div class="card-body">
+              <h3 class="card-title">Classic Pizza</h3>
+              <p class="card-text">Fresh mozzarella, tomatoes, and basil on a crisp, hand-tossed crust with savory sauce.</p>
+              <button class="btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card shadow-sm border-0 rounded">
+            <img src="assets/pasta.jpg" class="img-fluid card-img-top" alt="Pasta" loading="lazy"/>
+            <div class="card-body">
+              <h3 class="card-title">Pasta</h3>
+              <p class="card-text">A simple yet delicious dish of penne pasta in a flavorful tomato sauce, accented with fresh herbs and a touch of warmth.</p>
+              <button class="btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card shadow-sm border-0 rounded">
+            <img src="assets/lava.jpg" class="img-fluid card-img-top" alt="Lava Cake" loading="lazy"/>
+            <div class="card-body">
+              <h3 class="card-title">Chocolate Lava Cake</h3>
+              <p class="card-text">Rich, molten chocolate cake with a gooey center, served warm and delicious.</p>
+              <button class="btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works Section -->
+  <section class="how-it-works" id="how">
+    <div class="container text-center">
+      <h2 class="fw-bold py-5">How EatZoom Works</h2>
+      <div class="row g-5">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="section-how-card p-4 shadow-sm rounded">
+            <span><ion-icon class="icon" name="search"></ion-icon></span>
+            <h3 class="fw-bold text-dark">Browse Menu</h3>
+            <p>Explore a wide variety of delicious dishes from around the world.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="section-how-card p-4 shadow-sm rounded">
+            <span><ion-icon class="icon" name="cart"></ion-icon></span>
+            <h3 class="fw-bold text-dark">Place Order</h3>
+            <p>Select your favorite meals and complete your secure checkout process.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="section-how-card p-4 shadow-sm rounded">
+            <span><ion-icon class="icon" name="bicycle"></ion-icon></span>
+            <h3 class="fw-bold text-dark">Track Delivery</h3>
+            <p>Monitor your order's progress and receive updates in real time.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="section-how-card p-4 shadow-sm rounded">
+            <span><ion-icon class="icon" name="restaurant"></ion-icon></span>
+            <h3 class="fw-bold text-dark">Enjoy Meal</h3>
+            <p>Savor your freshly delivered meal, packed with flavor and love!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="container text-center">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="testimonial-card mx-auto">
+              <img src="assets/sky.png" width="150" class="img-fluid rounded-circle mb-4" alt="Sarah" />
+              <p class="testimonial-text">"EatZoom has changed the way I enjoy meals. Fast, easy, and delicious!"</p>
+              <h3 class="testimonials-name">Sky M.</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="testimonial-card mx-auto">
+              <img src="assets/john.png" width="150" class="img-fluid rounded-circle mb-4" alt="John" />
+              <p class="testimonial-text">"The best service! Great variety and super fast delivery every time."</p>
+              <h3 class="testimonials-name">John J.</h3>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="py-5 bg-light">
+  <div class="container">
+    <div class="row text-center text-lg-start">
+      <div class="col-12 col-lg-4 mb-4">
+        <h3 class="fw-bold pb-3">Visit us</h3>
+        <p>5467 Foodie Lane, Silicon Valley, California, U.S.A</p>
+        <a href="mailto:info@eatzoom.com" class="text-dark">info@eatzoom.com</a>
+      </div>
+      <div class="col-12 col-lg-4 mb-4">
+        <h3 class="fw-bold pb-3">Links</h3>
+        <div class="d-flex flex-column">
+          <a href="#" class="text-dark mb-2">Home</a>
+          <a href="#how" class="text-dark mb-2">How it works</a>
+          <a href="#features" class="text-dark mb-2">Features</a>
+          <a href="#contact" class="text-dark">Contact</a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 mb-4">
+        <h3 class="fw-bold pb-3">Follow us</h3>
+        <div class="d-flex justify-content-center justify-content-lg-start">
+          <a href="https://www.facebook.com" class="text-dark me-3"><ion-icon name="logo-facebook" class="icon"></ion-icon></a>
+          <a href="https://www.instagram.com" class="text-dark me-3"><ion-icon name="logo-instagram" class="icon"></ion-icon></a>
+          <a href="https://www.twitter.com" class="text-dark me-3"><ion-icon name="logo-twitter" class="icon"></ion-icon></a></ion-icon></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="text-center mt-4 mb-0 small">&copy; 2025 EatZoom. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script>
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+</script>
+
+</body>
+</html>
